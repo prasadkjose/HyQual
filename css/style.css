@@ -1,0 +1,193 @@
+body
+{
+    background-color: #233237;
+font-family: 'Roboto', monospace;
+        background: #4e5a5e; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#233237, #4e5a5e); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#233237, #4e5a5e); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#233237, #4e5a5e); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#233237, #4e5a5e); /* Standard syntax */
+}
+
+h2
+{
+    color: aliceblue;
+    text-align: center;
+}
+p1
+{
+    color: aliceblue;
+        text-align: center;
+
+}
+#main
+{
+        
+
+}
+
+#main hr
+{
+    width: 80%;
+    
+    
+}
+
+.row p{
+    color: aliceblue;
+    text-align:  ;
+}
+
+#intro
+{
+    height: 45%;
+    color: azure;
+}
+
+#intro h1
+{
+    text-align: center;
+    padding: 0vh 4vw 0vh 0vw;
+    font-size: 7vh;     
+}
+
+i
+{
+    color: aliceblue;
+}
+.logo
+{
+    float: left;
+    padding: 3vh 5vw 0vh 5vw;
+    
+}
+.fa-calendar-check-o
+{
+      font-size: 9vh;
+    padding: 2vh 2vw 2vh 2vw;
+  
+}
+.fa-clock-o
+{
+    font-size: 9vh;
+        padding: 2vh 2vw 2vh 2vw;
+
+}
+.fa-flag
+{
+    font-size: 9vh;
+        padding: 2vh 2vw 2vh 2vw;
+
+ }
+.f-left
+{
+    height: 55%;
+    
+}
+
+.social-icon
+{
+    padding: 0vh 0vw 1vh 2vw;
+}
+.social-icon i
+{
+     font-size: 5vh;
+}
+
+.fa-question-circle
+{
+    padding: 4vh 4vw 4vh 4vw;
+    font-size: 9vh;
+}
+.f-right
+{
+    background-color: #F6F8F8;
+      height:50%;
+     background: -webkit-linear-gradient(#F8F8FF, #F6F8F8); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#F8F8FF, #F6F8F8); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#F8F8FF, #F6F8F8); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#F8F8FF, #F6F8F8); /* Standard syntax */
+    box-shadow: 0px 0px 5px #F6F8F8 ;
+    border: 1px solid white;
+
+
+}
+
+.f-button
+{
+    width: 55%;
+    background-color: #233237;
+    color: azure;
+}
+
+.pub
+{   border: hidden;
+    padding-top: 12vh;
+    padding-left: 9vw;
+      margin: auto;
+ }
+.admin
+{
+     border: hidden;
+    padding-top: 5vh;
+    padding-left: 9vw;
+    margin: auto;
+}
+
+.f-right hr{
+   border-color: #233237;
+    width: 75%;
+}
+
+.glyphicon
+{
+    color: #2b2b2b;
+}
+
+.login
+{
+    padding: 1vh 40% 1vh 30%;
+    background-color: #233237;
+    color: aliceblue; 
+    margin-left: 1vw;
+}
+.modal-title
+{
+    color: #233237;
+    text-align: center;
+}
+
+.modal-dialog{
+    margin-top: 20vh;
+}
+
+#info hr
+{
+    width: 70%;
+}
+
+footer
+{
+     
+    background-color: ghostwhite;
+}
+
+
+.darc
+{  
+    padding:2vh 4vw 2vh 2vw;
+}
+
+input[type=string] {
+     box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('../image/search.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 25vw 12px 40px;
+    
+   
+ }
