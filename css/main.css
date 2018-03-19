@@ -16,20 +16,17 @@ h1
 
 body
 {
-    background-color: #233237;
+    background-color: #3f51b5;
 font-family: 'Roboto', monospace;
-        background: #4e5a5e; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#233237, #4e5a5e); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#233237, #4e5a5e); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#233237, #4e5a5e); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#233237, #4e5a5e); /* Standard syntax */
+        background: white; /* For browsers that do not support gradients */
+    
 }
 .main
 {
     min-height:180%;
     background-color: #F6F8F8;
         margin-top: 1vh;
-       box-shadow: 0px 1px 13px grey;
+     width: 98%;
 
 
 }
@@ -38,13 +35,13 @@ nav{
     background-color: #F6F8F8;
     height: 12vh;
     border-top: 2px solid #1188FE;
+       box-shadow: 0px 1px 13px grey;
     
 }
 
 .logo
 {
-    margin-top: -20px;
- }
+  }
 
 #map {
         height: 500px;
@@ -65,7 +62,7 @@ nav{
 {
     color: #DA5D58;
 font-size: 20vh;  
-    padding: 7vh 5vw 5vh 12vw;
+    padding: 7vh 5vw 5vh 15vw;
 
 }
 
@@ -233,7 +230,7 @@ padding-top: 20px;}
     background-color: #455256;
     color: aliceblue;
     width: 40vw;
-    margin-left:  20vw;
+    margin-left:  27vw;
     padding-left: vw;
     padding-top: 1vh;
     padding-bottom: 1vh;
@@ -280,7 +277,7 @@ footer
      padding-top: 2vh;
     padding-bottom: 2vh;
     background-color: ghostwhite;
-    border-bottom: 2px solid #1188FE;
+    border-top: 2px solid #1188FE;
 }
 .darc
 {
@@ -307,4 +304,9 @@ footer
     font-size: 3vh;
     padding-top: 2vh;
     padding-left: 2vw;
+}
+
+.rights
+{
+    padding: 25px; 10px 10px 10px;
 }

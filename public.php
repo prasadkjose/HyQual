@@ -13,6 +13,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
                 <script src="https://use.fontawesome.com/e6226027d1.js"></script>
+         <link rel="icon shortcut" href="image/logosmall.ico">
 
     <link rel="stylesheet" href="css/main.css">
         <script src="http://maps.google.com/maps/api/js?sensor=false" type="text/javascript"></script>
@@ -55,8 +56,8 @@
     </head>
     
     <body>
-       <nav>
-            <div class="navbar-header">
+       <nav class="navbar-fixed-top">
+            <div class="navbar-header ">
               <a class="navbar-brand logo" href="#"><img src="image/logosmall.png"> </a>
                 <h1 class="navbar-brand" >Public Dashboard</h1>
             </div>
@@ -67,7 +68,11 @@
             </ul>
            
     </nav>
-            
+                <br>
+         <br>
+         <br>
+         <br>
+    
         
      <div class="container main">
          <br>
@@ -298,10 +303,19 @@
     <br>
      
    
-<footer>
-    <img class="darc" src="image/D'ARC.png">
+<footer id="footer">
+    <div class="row">
+        <div class="col-md-2">
+            <img class="darc" src="image/D'ARC.png">
+
+        </div>
+        <div class="col-md-2 rights col-md-offset-8">
+    <p2>All Rights Reserved</p2>
+
+        </div>
+    </div>
     
-</footer>    
+</footer>   
     
     
     

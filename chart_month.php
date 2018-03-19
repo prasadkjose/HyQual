@@ -14,7 +14,8 @@
  <link href="css/w3.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
       <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-   
+            <link rel="icon shortcut" href="image/logosmall.ico">
+
 <?php
 
     $lake=$_POST["lno"];

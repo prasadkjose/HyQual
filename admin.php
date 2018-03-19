@@ -13,6 +13,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
                 <script src="https://use.fontawesome.com/e6226027d1.js"></script>
+         <link rel="icon shortcut" href="image/logosmall.ico">
 
     <link rel="stylesheet" href="css/main.css">
         <script src="http://maps.google.com/maps/api/js?sensor=false" type="text/javascript"></script>
@@ -55,7 +56,7 @@
     </head>
     
     <body>
-       <nav>
+       <nav class="navbar-fixed-top">
             <div class="navbar-header">
               <a class="navbar-brand logo" href="#"><img src="image/logosmall.png"> </a>
                 <h1 class="navbar-brand" >Admin Dashboard</h1>
@@ -66,9 +67,8 @@
             </ul>
            
     </nav>
-            
-        
-     <div class="container main">
+         <br>  <br>  <br>  <br>     
+      <div class="container main">
          <br>
          <div class="row">
             <div class="col-md-7">
@@ -245,8 +245,7 @@
         else
         {
             echo "Highly Polluted. Alert has been sent.";
-            echo "<script> window.open('http://www.crewlabz.in/mailalert.php')</script>"  ;
-            $tweet= "Highly Polluted. Alert has been sent.";
+             $tweet= "Highly Polluted. Alert has been sent.";
             
         } 
 
@@ -351,7 +350,7 @@
                                <br>
                                <br>
                                <br>
-                                <button value="submit" type="submit" class="btn btn-primary" style=" margin-top: -15px;" formaction="http://www.crewlabz.in/mailalert.php"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;Send Mail</button>
+                                <button value="submit" type="submit" class="btn btn-primary" style=" margin-top: -15px;" formaction="http://www.darchub.com/mail.php"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;Send Mail</button>
                                     </form>		 
 
                           </div>
@@ -463,8 +462,17 @@ function w3_close() {
     <br>
      
    
-<footer>
-    <img class="darc" src="image/D'ARC.png">
+<footer id="footer">
+    <div class="row">
+        <div class="col-md-2">
+            <img class="darc" src="image/D'ARC.png">
+
+        </div>
+        <div class="col-md-2 rights col-md-offset-8">
+    <p2>All Rights Reserved</p2>
+
+        </div>
+    </div>
     
 </footer>    
     
